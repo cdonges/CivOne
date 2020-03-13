@@ -596,7 +596,7 @@ namespace CivOne
 			_specialists[index] = (Citizen)((((int)_specialists[index] - 5) % 3) + 6);
 		}
 
-		private IEnumerable<ITile> CityTiles
+		public IEnumerable<ITile> CityTiles
 		{
 			get
 			{
